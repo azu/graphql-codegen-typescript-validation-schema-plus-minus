@@ -1,0 +1,4 @@
+input ExampleInput {
+  email: String!
+  message: String! @constraint(min: 1, max: 1000)
+}

@@ -1,0 +1,21 @@
+{
+  "name": "graphql-codegen-typescript-validation-schema-plus-minus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "graphql": "^16.8.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/client-preset": "4.2.5",
+    "graphql-codegen-typescript-validation-schema": "^0.12.1"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT"
+}
