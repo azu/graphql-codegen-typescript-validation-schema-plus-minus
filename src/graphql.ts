@@ -34,6 +34,6 @@ export const definedNonNullAnySchema = z.any().refine((v) => isDefinedNonNullAny
 export function ExampleInputSchema(): z.ZodObject<Properties<ExampleInput>> {
   return z.object({
     email: z.string(),
-    message: z.string().min("1 - 1").max("1000 + 1")
+    message: z.string().min(0).max(1001)
   })
 }
